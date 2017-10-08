@@ -20,5 +20,6 @@ X[1:10,1:37] = glider_gun
 glider_game = game_of_life.Game(X, name="Glider Gun", bounds=(200,200))
 glider_game.animate()
 ```
-
-<img src="https://github.com/twolffpiggott/game-of-life/blob/master/glider_gun.gif" height="50" width="50">
+<p align="center">
+<img src="https://github.com/twolffpiggott/game-of-life/blob/master/glider_gun.gif" height="500" width="500">
+</p>
