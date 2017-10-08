@@ -47,7 +47,7 @@ class Game:
         X[np.array([c[0] for c in self.board]), np.array([c[1] for c in self.board])] = 1
         return X
 
-    def animate(self, dpi=600, frames=10, interval=300, mode='loop'):
+    def animate(self, dpi=600, frames=10, interval=300):
         X = self.to_array()
         X_blank = np.zeros_like(X)
         figsize = (X.shape[1] * 1. / dpi, X.shape[0] * 1. / dpi)
