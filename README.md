@@ -1,6 +1,6 @@
 # game-of-life
 ## Simple implementation of Conway's game of life, with gif 
-### Visualisation based on jakevdp's[https://jakevdp.github.io/blog/2013/08/07/conways-game-of-life/] great walkthrough
+### Visualisation based on [jakevdp's](https://jakevdp.github.io/blog/2013/08/07/conways-game-of-life/ "jakevdp's walkthrough") great walkthrough
 
 ```python
 import game_of_life
@@ -20,4 +20,4 @@ glider_game = game_of_life.Game(X, bounds=(200,200))
 glider_game.animate()
 ```
 
-![Gosper Glider Gun]({{ site.baseurl }}/glider_gun.gif)
+![Gosper Glider Gun](https://github.com/twolffpiggott/game-of-life.git/glider_gun.gif "Gosper Glider Gun")
