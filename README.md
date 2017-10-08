@@ -20,4 +20,4 @@ glider_game = game_of_life.Game(X, bounds=(200,200))
 glider_game.animate()
 ```
 
-![Gosper Glider Gun](https://github.com/twolffpiggott/game-of-life/glider_gun.gif "Gosper Glider Gun")
+![Gosper Glider Gun](https://github.com/twolffpiggott/game-of-life/blob/master/glider_gun.gif "Gosper Glider Gun")
